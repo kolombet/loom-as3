@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cdnsdk.build.flex</groupId>
+	<artifactId>flex-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.3.4</version>
+	<parent>
+		<groupId>info.flex-mojos</groupId>
+		<artifactId>flex-super-pom</artifactId>
+		<version>2.0M9</version>
+	</parent>
+	<issueManagement>
+		<system>Bugzilla</system>
+		<url>https://nile.hwcdn.net/bugzilla/</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Hudson</system>
+		<url>http://10.0.0.40:8080/hudson/</url>
+	</ciManagement>
+	<properties>
+		<flex.home>/Applications/Adobe Flex Builder 3/sdks/3.1.0/</flex.home>
+		<fluint.testrunner>/Applications/FluintAIRTestRunner.app/Contents/MacOS/FluintAIRTestRunner</fluint.testrunner>
+	</properties>
+	<scm>
+		<connection>
+         scm:svn:svn+ssh://nile.hwcdn.net/var/svn/striketracker_1.1/Infrastructure/Maven/flex-parent/trunk
+      </connection>
+		<developerConnection>
+         scm:svn:svn+ssh://nile.hwcdn.net/var/svn/striketracker_1.1/Infrastructure/Maven/flex-parent/trunk
+      </developerConnection>
+	</scm>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>info.flex-mojos</groupId>
+				<artifactId>flex-compiler-mojo</artifactId>
+				<version>2.0M9</version>
+				<extensions>true</extensions>
+				<configuration>
+					<mergeResourceBundle>false</mergeResourceBundle>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>fluint-test-compile</id>
+						<phase>test-compile</phase>
+						<configuration>
+							<tasks>
+<!-- Pull in Flex Ant Tasks -->
+								<taskdef resource="flexTasks.tasks"/>
+								<property name="FLEX_HOME" location="${flex.home}"/>
+<!-- Create test-classes directory -->
+								<mkdir dir="${project.build.testOutputDirectory}"/>
+								<mxmlc file="${project.build.testSourceDirectory}/AirRunner.mxml" output="${project.build.testOutputDirectory}/AirRunner.swf" keep-generated-actionscript="false">
+									<load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>
+									<source-path path-element="${FLEX_HOME}/frameworks"/>
+									<compiler.library-path dir="${FLEX_HOME}/frameworks" append="true">
+										<include name="libs"/>
+									</compiler.library-path>
+									<compiler.library-path dir="${project.build.directory}/.." append="true">
+										<include name="libs"/>
+									</compiler.library-path>
+									<compiler.library-path dir="${project.build.directory}" append="true">
+										<include name="*.swc"/>
+									</compiler.library-path>
+								</mxmlc>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>fluint-test-run</id>
+						<phase>test</phase>
+						<configuration>
+							<tasks>
+<!-- Pull in Fluint Ant Task -->
+								<taskdef name="fluint" classname="net.digitalprimates.ant.tasks.fluint.Fluint"/>
+								<property name="test.report.loc" location="${project.build.directory}/surefire-reports"/>
+<!-- Create reporting directory -->
+								<mkdir dir="${test.report.loc}"/>
+								<fluint debug="true" headless="true" testRunner="${fluint.testrunner}" outputDir="${test.report.loc}" workingDir="${project.build.testOutputDirectory}">
+									<fileset dir="${project.build.testOutputDirectory}">
+										<include name="**/AirRunner.swf"/>
+									</fileset>
+								</fluint>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant</artifactId>
+						<version>1.7.0</version>
+					</dependency>
+					<dependency>
+						<groupId>flex.ant</groupId>
+						<artifactId>flexTasks</artifactId>
+						<version>1.0.0</version>
+					</dependency>
+					<dependency>
+						<groupId>net.digitalprimates.fluint</groupId>
+						<artifactId>anttasks</artifactId>
+						<version>1.1.0</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>net.digitalprimates</groupId>
+			<artifactId>fluint</artifactId>
+			<version>1.1.0</version>
+			<type>swc</type>
+		</dependency>
+		<dependency>
+			<groupId>com.adobe.flex</groupId>
+			<artifactId>corelib</artifactId>
+			<version>1.0</version>
+			<type>swc</type>
+		</dependency>
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>highwinds-artifactory</id>
+			<name>Highwind's Repository</name>
+			<url>
+            https://artifactory.dev.hwcdn.net:8443/artifactory/libs-releases@repo
+         </url>
+		</repository>
+		<snapshotRepository>
+			<id>highwinds-artifactory</id>
+			<name>Highwind's Repository</name>
+			<url>
+            https://artifactory.dev.hwcdn.net:8443/artifactory/libs-snapshots@repo
+         </url>
+		</snapshotRepository>
+	</distributionManagement>
+	<profiles>
+		<profile>
+			<id>copy-dependencies</id>
+			<activation>
+				<file>
+					<exists>.project</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>clean-dependencies</id>
+								<phase>initialize</phase>
+								<configuration>
+									<tasks>
+										<delete dir="libs" failonerror="false"/>
+									</tasks>
+								</configuration>
+								<goals>
+									<goal>run</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<artifactId>maven-dependency-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>copy-dependencies</id>
+								<phase>initialize</phase>
+								<goals>
+									<goal>copy-dependencies</goal>
+								</goals>
+								<configuration>
+									<includeTypes>swc,swf</includeTypes>
+									<outputDirectory>
+                              libs
+                           </outputDirectory>
+<!-- Exclude sdk swcs included by Flex Builder -->
+									<excludeArtifactIds>
+                              flex,flexunit,flexunit-optional,framework,playerglobal,rpc,utilities
+                           </excludeArtifactIds>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<configuration>
+					<aggregate>true</aggregate>
+					<reportsDirectories>
+						<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+					</reportsDirectories>
+				</configuration>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>report-only</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+			<plugin>
+				<groupId>info.flex-mojos</groupId>
+				<artifactId>asdoc</artifactId>
+			</plugin>
+		</plugins>
+	</reporting>
+</project>

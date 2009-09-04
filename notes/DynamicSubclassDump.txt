@@ -1,0 +1,270 @@
+Integer Pool: 0
+Uint Pool: 0
+Double Pool: 0
+String Pool:
+	*
+	loom.template:DynamicSubClass
+	
+	Dictionary
+	DynamicSubClass.as$1
+	loom.template
+	loom.template:BaseClass
+	Object
+	flash.utils
+	handlerMappings
+	http://loom.ninjitsoft.com
+	String
+	void
+	Function
+	methodName
+	Boolean
+	apply
+	proceed
+	MethodInvocation
+	methodCallOne
+	proxyInvocation
+	int
+	Number
+	methodCallTwo
+	methodCallThree
+	setHandler
+	DynamicSubClass
+	BaseClass
+Namespace Pool:
+	Namespace[namespace::*]
+	Namespace[private::loom.template:DynamicSubClass]
+	Namespace[private::DynamicSubClass.as$1]
+	Namespace[public]
+	Namespace[public::loom.template]
+	Namespace[packageInternalNamespace::loom.template]
+	Namespace[protectedNamespace::loom.template:DynamicSubClass]
+	Namespace[staticProtectedNamespace::loom.template:DynamicSubClass]
+	Namespace[staticProtectedNamespace::loom.template:BaseClass]
+	Namespace[staticProtectedNamespace::Object]
+	Namespace[public::flash.utils]
+	Namespace[namespace::http://loom.ninjitsoft.com]
+	Namespace[protectedNamespace::loom.template:BaseClass]
+Namespace Set Pool:
+	[Namespace[namespace::*]]
+	[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]
+	[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]
+	[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]
+	[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]
+Multiname Pool:
+	QName[Namespace[namespace::*]:*]
+	Multiname[name=Dictionary, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]]
+	QName[Namespace[namespace::http://loom.ninjitsoft.com]:handlerMappings]
+	QName[Namespace[public]:String]
+	Multiname_L[nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	QName[Namespace[public]:void]
+	QName[Namespace[public]:Function]
+	Multiname[name=methodName, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	Multiname[name=Boolean, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	Multiname[name=apply, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	Multiname[name=proceed, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	QName[Namespace[public::loom.template]:MethodInvocation]
+	Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]
+	Multiname[name=methodCallOne, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]
+	QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation]
+	QName[Namespace[public]:int]
+	QName[Namespace[public]:Number]
+	Multiname[name=methodCallTwo, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]
+	QName[Namespace[public]:Object]
+	Multiname[name=methodCallThree, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]
+	QName[Namespace[public]:methodCallThree]
+	QName[Namespace[public]:methodCallOne]
+	QName[Namespace[namespace::http://loom.ninjitsoft.com]:setHandler]
+	QName[Namespace[public]:methodCallTwo]
+	QName[Namespace[public::flash.utils]:Dictionary]
+	QName[Namespace[public::loom.template]:DynamicSubClass]
+	QName[Namespace[public::loom.template]:BaseClass]
+	Multiname[name=BaseClass, nsset=[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]
+Method Signatures (MethodInfo):
+	(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	(no namespace) function constructor(QName[Namespace[public]:String], QName[Namespace[public]:String]) : QName[Namespace[namespace::*]:*]
+	http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:setHandler](QName[Namespace[public]:String], QName[Namespace[public]:Function]) : QName[Namespace[public]:void]
+	http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation](QName[Namespace[public::loom.template]:MethodInvocation]) : QName[Namespace[namespace::*]:*]
+	public function QName[Namespace[public]:methodCallOne](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:int]
+	public function QName[Namespace[public]:methodCallTwo](QName[Namespace[public]:String], QName[Namespace[public]:Number], QName[Namespace[public]:Object]) : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:methodCallThree](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:String]
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+
+InstanceInfo[
+	className=QName[Namespace[public::loom.template]:DynamicSubClass]
+	superclassName=QName[Namespace[public::loom.template]:BaseClass]
+	isProtected=true
+	protectedNamespace=Namespace[protectedNamespace::loom.template:DynamicSubClass]
+	interfaceCount=0
+	interfaces=
+	instanceInitializer=(no namespace) function constructor(QName[Namespace[public]:String], QName[Namespace[public]:String]) : QName[Namespace[namespace::*]:*]
+	traits=[
+		MethodTrait[name=QName[Namespace[public]:methodCallThree], override=true, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodCallThree](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:String]]
+		MethodTrait[name=QName[Namespace[public]:methodCallOne], override=true, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodCallOne](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:int]]
+		MethodTrait[name=QName[Namespace[namespace::http://loom.ninjitsoft.com]:setHandler], override=false, metadata=, dispositionId=0, method=http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:setHandler](QName[Namespace[public]:String], QName[Namespace[public]:Function]) : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:methodCallTwo], override=true, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodCallTwo](QName[Namespace[public]:String], QName[Namespace[public]:Number], QName[Namespace[public]:Object]) : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation], override=false, metadata=, dispositionId=0, method=http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation](QName[Namespace[public::loom.template]:MethodInvocation]) : QName[Namespace[namespace::*]:*]]
+		SlotOrConstantTrait[name=QName[Namespace[namespace::http://loom.ninjitsoft.com]:handlerMappings], metadata=, kind=slot, slot=0, typeName=QName[Namespace[public::flash.utils]:Dictionary], vindex=0, vkind=null]
+	]
+]
+ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		
+	]
+]
+ScriptInfo[
+	scriptInitializer=(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		ClassTrait[name=QName[Namespace[public::loom.template]:DynamicSubClass], classSlotId=1, classIndex=0, metadata=]
+	]
+]
+
+	(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=1, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		returnvoid		
+	}
+traits=(no traits)
+
+	(no namespace) function constructor(QName[Namespace[public]:String], QName[Namespace[public]:String]) : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=3, localCount=3, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		getlocal_1		
+		getlocal_2		
+		constructsuper		[2]
+		getlocal_0		
+		findpropstrict		[Multiname[name=Dictionary, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]]]
+		constructprop		[Multiname[name=Dictionary, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]], 0]
+		initproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:handlerMappings]]
+		returnvoid		
+	}
+traits=(no traits)
+
+	http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:setHandler](QName[Namespace[public]:String], QName[Namespace[public]:Function]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=3, localCount=3, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		getproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:handlerMappings]]
+		getlocal_1		
+		getlocal_2		
+		setproperty		[Multiname_L[nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		returnvoid		
+	}
+traits=(no traits)
+
+	http://loom.ninjitsoft.com function QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation](QName[Namespace[public::loom.template]:MethodInvocation]) : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=3, localCount=3, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		getproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:handlerMappings]]
+		getlocal_1		
+		getproperty		[Multiname[name=methodName, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		getproperty		[Multiname_L[nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		coerce		[QName[Namespace[public]:Function]]
+		setlocal_2		
+		findpropstrict		[Multiname[name=Boolean, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		getlocal_2		
+		callproperty		[Multiname[name=Boolean, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 1]
+		iffalse		[9]
+		getlocal_2		
+		getlocal_0		
+		getlocal_1		
+		newarray		[1]
+		callproperty		[Multiname[name=apply, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 2]
+		returnvalue		
+		getlocal_1		
+		callproperty		[Multiname[name=proceed, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 0]
+		returnvalue		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodCallOne](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:int]
+	{	
+		//maxStack=6, localCount=4, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		findpropstrict		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		getlocal_0		
+		pushstring		[methodCallOne]
+		getlocal_3		
+		getlocal_0		
+		getsuper		[Multiname[name=methodCallOne, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]]
+		constructprop		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 4]
+		callproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation], 1]
+		returnvalue		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodCallTwo](QName[Namespace[public]:String], QName[Namespace[public]:Number], QName[Namespace[public]:Object]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=6, localCount=5, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		findpropstrict		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		getlocal_0		
+		pushstring		[methodCallTwo]
+		getlocal		[4]
+		getlocal_0		
+		getsuper		[Multiname[name=methodCallTwo, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]]
+		constructprop		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 4]
+		callproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodCallThree](QName[Namespace[public]:String], QName[Namespace[public]:Number]) : QName[Namespace[public]:String]
+	{	
+		//maxStack=6, localCount=4, initScopeDepth=5, maxScopeDepth=6
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		findpropstrict		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]]]
+		getlocal_0		
+		pushstring		[methodCallThree]
+		getlocal_3		
+		getlocal_0		
+		getsuper		[Multiname[name=methodCallThree, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object], Namespace[protectedNamespace::loom.template:BaseClass]]]]
+		constructprop		[Multiname[name=MethodInvocation, nsset=[Namespace[private::loom.template:DynamicSubClass], Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template], Namespace[protectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:DynamicSubClass], Namespace[staticProtectedNamespace::loom.template:BaseClass], Namespace[staticProtectedNamespace::Object]]], 4]
+		callproperty		[QName[Namespace[namespace::http://loom.ninjitsoft.com]:proxyInvocation], 1]
+		returnvalue		
+	}
+traits=(no traits)
+
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=4
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public]:Object]]
+		getproperty		[QName[Namespace[public]:Object]]
+		pushscope		
+		findpropstrict		[QName[Namespace[public::loom.template]:BaseClass]]
+		getproperty		[QName[Namespace[public::loom.template]:BaseClass]]
+		pushscope		
+		findpropstrict		[Multiname[name=BaseClass, nsset=[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		getproperty		[Multiname[name=BaseClass, nsset=[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		newclass		[ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		
+	]
+]]
+		popscope		
+		popscope		
+		initproperty		[QName[Namespace[public::loom.template]:DynamicSubClass]]
+		returnvoid		
+	}
+traits=(no traits)
