@@ -1,0 +1,49 @@
+BaseClass
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=3
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public]:Object]]
+		getproperty		[QName[Namespace[public]:Object]]
+		pushscope		
+		findpropstrict		[Multiname[name=Object, nsset=[Namespace[private::BaseClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		getproperty		[Multiname[name=Object, nsset=[Namespace[private::BaseClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		newclass		[ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		
+	]
+]]
+		popscope		
+		initproperty		[QName[Namespace[public::loom.template]:BaseClass]]
+		returnvoid		
+	}
+
+DynamicSubClass
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=4
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public]:Object]]
+		getproperty		[QName[Namespace[public]:Object]]
+		pushscope		
+		findpropstrict		[QName[Namespace[public::loom.template]:BaseClass]]
+		getproperty		[QName[Namespace[public::loom.template]:BaseClass]]
+		pushscope		
+		findpropstrict		[Multiname[name=BaseClass, nsset=[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		getproperty		[Multiname[name=BaseClass, nsset=[Namespace[private::DynamicSubClass.as$1], Namespace[public], Namespace[public::loom.template], Namespace[packageInternalNamespace::loom.template]]]]
+		newclass		[ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		
+	]
+]]
+		popscope		
+		popscope		
+		initproperty		[QName[Namespace[public::loom.template]:DynamicSubClass]]
+		returnvoid		
+	}

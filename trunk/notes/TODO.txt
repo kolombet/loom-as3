@@ -1,0 +1,8 @@
+TODO
+- (?) Revisit serializer. Instead of having the constant pool do so much work, make helpers or a wrapper. i.e. addMultiname should not add strings and all the other stuff it does
+- Revisit de-duplicating constant pool. Make proper equals() methods and use hashing algorithms or similar to make it faster
+- Do you even need to parse method bodies? The MethodInfos and ClassInfos should give you everything you need to make a proxy...
+
+DONE
+- Revisit deserializer. It doesn't need a smart constant pool - just needs to store the values
+- Make the deserializer smart enough to verify pool/collection sizes as it goes

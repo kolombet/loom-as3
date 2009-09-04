@@ -1,0 +1,347 @@
+Item Count: 2
+Item Count: 0
+Item Count: 0
+Item Count: 51
+Item Count: 11
+Total number of namespaces: 11
+Item Count: 4
+Item Count: 28
+MethodInfos: 885
+Metadata: 946
+Classes: 973
+InstanceInfo: 974
+ClassInfo: 1028
+Scripts: 1051
+MethodBodies: 1062
+Integer Pool: 0,10
+Uint Pool: 0
+Double Pool: 0
+String Pool:
+	*
+	assets.abc:FullClassDefinition
+	PUBLIC_STATIC_CONSTANT
+	
+	SOME_STATIC_CONSTANT
+	SOME_STATIC_VAR
+	FullClassDefinition.as$1
+	assets.abc
+	http://www.maximporges.com
+	Object
+	trace
+	staticMethod
+	void
+	Dictionary
+	flash.utils
+	dictionary
+	Constructor
+	methodWithNoArguments
+	methodWithTwoArguments
+	String
+	int
+	methodWithOptionalArguments
+	methodWithRestArguments
+	I don't want to die.
+	_internalValue
+	customNamespaceFunction
+	Interface
+	implementMeOrDie
+	MethodMetadata
+	methodKey1
+	methodValue1
+	methodKey2
+	methodValue2
+	setterForInternalValue
+	FieldMetadata
+	fieldKey1
+	fieldValue1
+	fieldKey2
+	fieldValue2
+	getterForInternalValue
+	FullClassDefinition
+	ValuelessMetadata
+	ValueOnlyMetadata
+	valueOnlyValue
+	ClassMetadata
+	classKey1
+	classValue1
+	classKey2
+	classValue2
+	classKey3
+	classValue3
+Namespace Pool:
+	Namespace[namespace::*]
+	Namespace[private::assets.abc:FullClassDefinition]
+	Namespace[public]
+	Namespace[private::FullClassDefinition.as$1]
+	Namespace[public::assets.abc]
+	Namespace[packageInternalNamespace::assets.abc]
+	Namespace[namespace::http://www.maximporges.com]
+	Namespace[protectedNamespace::assets.abc:FullClassDefinition]
+	Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition]
+	Namespace[staticProtectedNamespace::Object]
+	Namespace[public::flash.utils]
+Namespace Set Pool:
+	[Namespace[namespace::*]]
+	[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]
+	[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]
+	[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]
+Multiname Pool:
+	QName[Namespace[namespace::*]:*]
+	QName[Namespace[public]:PUBLIC_STATIC_CONSTANT]
+	QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_CONSTANT]
+	Multiname[name=SOME_STATIC_VAR, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]
+	Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]
+	QName[Namespace[public]:void]
+	Multiname[name=Dictionary, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]]
+	Multiname[name=dictionary, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]
+	QName[Namespace[public]:String]
+	QName[Namespace[public]:int]
+	Multiname[name=_internalValue, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]
+	QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_VAR]
+	QName[Namespace[public]:staticMethod]
+	Multiname[name=Interface, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]
+	QName[Namespace[public]:implementMeOrDie]
+	QName[Namespace[public]:methodWithNoArguments]
+	QName[Namespace[public]:methodWithOptionalArguments]
+	QName[Namespace[public]:methodWithTwoArguments]
+	QName[Namespace[public]:setterForInternalValue]
+	QName[Namespace[private::assets.abc:FullClassDefinition]:_internalValue]
+	QName[Namespace[private::assets.abc:FullClassDefinition]:dictionary]
+	QName[Namespace[public::flash.utils]:Dictionary]
+	QName[Namespace[namespace::http://www.maximporges.com]:customNamespaceFunction]
+	QName[Namespace[public]:methodWithRestArguments]
+	QName[Namespace[public]:getterForInternalValue]
+	QName[Namespace[public::assets.abc]:FullClassDefinition]
+	QName[Namespace[public]:Object]
+	Multiname[name=Object, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]
+Method Signatures (MethodInfo):
+	(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	public function QName[Namespace[public]:staticMethod]() : QName[Namespace[public]:void]
+	(no namespace) function constructor() : QName[Namespace[namespace::*]:*]
+	public function QName[Namespace[public]:methodWithNoArguments]() : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:methodWithTwoArguments](QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:methodWithOptionalArguments](QName[Namespace[public]:String], QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:methodWithRestArguments](QName[Namespace[public]:String]) : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:implementMeOrDie]() : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:setterForInternalValue](QName[Namespace[public]:String]) : QName[Namespace[public]:void]
+	public function QName[Namespace[public]:getterForInternalValue]() : QName[Namespace[public]:String]
+	http://www.maximporges.com function QName[Namespace[namespace::http://www.maximporges.com]:customNamespaceFunction]() : QName[Namespace[public]:void]
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+[MethodMetadata(methodKey2="methodValue2",methodKey1="methodValue1")]
+[FieldMetadata(fieldKey1="fieldValue1",fieldKey2="fieldValue2")]
+[ValuelessMetadata()]
+[ValueOnlyMetadata(*="valueOnlyValue")]
+[ClassMetadata(classKey1="classValue1",classKey2="classValue2",classKey3="classValue3")]
+InstanceInfo[
+	className=QName[Namespace[public::assets.abc]:FullClassDefinition]
+	superclassName=QName[Namespace[public]:Object]
+	isProtected=true
+	protectedNamespace=Namespace[protectedNamespace::assets.abc:FullClassDefinition]
+	interfaceCount=1
+	interfaces=Multiname[name=Interface, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]
+	instanceInitializer=(no namespace) function constructor() : QName[Namespace[namespace::*]:*]
+	traits=[
+		MethodTrait[name=QName[Namespace[public]:implementMeOrDie], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:implementMeOrDie]() : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:methodWithNoArguments], override=false, metadata=[MethodMetadata(methodKey2="methodValue2",methodKey1="methodValue1")], dispositionId=0, method=public function QName[Namespace[public]:methodWithNoArguments]() : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:methodWithOptionalArguments], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodWithOptionalArguments](QName[Namespace[public]:String], QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:methodWithTwoArguments], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodWithTwoArguments](QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:setterForInternalValue], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:setterForInternalValue](QName[Namespace[public]:String]) : QName[Namespace[public]:void]]
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:_internalValue], metadata=, kind=slot, slot=0, typeName=QName[Namespace[public]:String], vindex=0, vkind=null]
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:dictionary], metadata=[FieldMetadata(fieldKey1="fieldValue1",fieldKey2="fieldValue2")], kind=slot, slot=0, typeName=QName[Namespace[public::flash.utils]:Dictionary], vindex=0, vkind=null]
+		MethodTrait[name=QName[Namespace[namespace::http://www.maximporges.com]:customNamespaceFunction], override=false, metadata=, dispositionId=0, method=http://www.maximporges.com function QName[Namespace[namespace::http://www.maximporges.com]:customNamespaceFunction]() : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:methodWithRestArguments], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:methodWithRestArguments](QName[Namespace[public]:String]) : QName[Namespace[public]:void]]
+		MethodTrait[name=QName[Namespace[public]:getterForInternalValue], override=false, metadata=, dispositionId=0, method=public function QName[Namespace[public]:getterForInternalValue]() : QName[Namespace[public]:String]]
+	]
+]
+ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_VAR], metadata=, kind=slot, slot=3, typeName=QName[Namespace[public]:String], vindex=0, vkind=null]
+		MethodTrait[name=QName[Namespace[public]:staticMethod], override=false, metadata=, dispositionId=3, method=public function QName[Namespace[public]:staticMethod]() : QName[Namespace[public]:void]]
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_CONSTANT], metadata=, kind=const, slot=2, typeName=QName[Namespace[public]:String], vindex=4, vkind=[object ConstantKind]]
+		SlotOrConstantTrait[name=QName[Namespace[public]:PUBLIC_STATIC_CONSTANT], metadata=, kind=const, slot=1, typeName=QName[Namespace[public]:String], vindex=2, vkind=[object ConstantKind]]
+	]
+]
+ScriptInfo[
+	scriptInitializer=(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		ClassTrait[name=QName[Namespace[public::assets.abc]:FullClassDefinition], classSlotId=1, classIndex=0, metadata=[ValuelessMetadata()],[ValueOnlyMetadata(*="valueOnlyValue")],[ClassMetadata(classKey1="classValue1",classKey2="classValue2",classKey3="classValue3")]]
+	]
+]
+
+	(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=3, maxScopeDepth=4
+		getlocal_0		
+		pushscope		
+		findproperty		[QName[Namespace[public]:PUBLIC_STATIC_CONSTANT]]
+		pushstring		[PUBLIC_STATIC_CONSTANT]
+		initproperty		[QName[Namespace[public]:PUBLIC_STATIC_CONSTANT]]
+		findproperty		[QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_CONSTANT]]
+		pushstring		[SOME_STATIC_CONSTANT]
+		initproperty		[QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_CONSTANT]]
+		findproperty		[Multiname[name=SOME_STATIC_VAR, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[SOME_STATIC_VAR]
+		setproperty		[Multiname[name=SOME_STATIC_VAR, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:staticMethod]() : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=3, maxScopeDepth=4
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[staticMethod]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	(no namespace) function constructor() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		constructsuper		[0]
+		getlocal_0		
+		findpropstrict		[Multiname[name=Dictionary, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]]]
+		constructprop		[Multiname[name=Dictionary, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object], Namespace[public::flash.utils]]], 0]
+		initproperty		[Multiname[name=dictionary, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[Constructor]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodWithNoArguments]() : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[methodWithNoArguments]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodWithTwoArguments](QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=3, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[methodWithTwoArguments]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodWithOptionalArguments](QName[Namespace[public]:String], QName[Namespace[public]:String], QName[Namespace[public]:int]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=4, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[methodWithOptionalArguments]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:methodWithRestArguments](QName[Namespace[public]:String]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=3, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[methodWithRestArguments]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:implementMeOrDie]() : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[I don't want to die.]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:setterForInternalValue](QName[Namespace[public]:String]) : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=2, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		getlocal_1		
+		initproperty		[Multiname[name=_internalValue, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		returnvoid		
+	}
+traits=(no traits)
+
+	public function QName[Namespace[public]:getterForInternalValue]() : QName[Namespace[public]:String]
+	{	
+		//maxStack=1, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		getlocal_0		
+		getproperty		[Multiname[name=_internalValue, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		returnvalue		
+	}
+traits=(no traits)
+
+	http://www.maximporges.com function QName[Namespace[namespace::http://www.maximporges.com]:customNamespaceFunction]() : QName[Namespace[public]:void]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=4, maxScopeDepth=5
+		getlocal_0		
+		pushscope		
+		findpropstrict		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]]]
+		pushstring		[customNamespaceFunction]
+		callproperty		[Multiname[name=trace, nsset=[Namespace[private::assets.abc:FullClassDefinition], Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com], Namespace[protectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::assets.abc:FullClassDefinition], Namespace[staticProtectedNamespace::Object]]], 1]
+		pop		
+		returnvoid		
+	}
+traits=(no traits)
+
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=3
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public]:Object]]
+		getproperty		[QName[Namespace[public]:Object]]
+		pushscope		
+		findpropstrict		[Multiname[name=Object, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]]
+		getproperty		[Multiname[name=Object, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]]
+		newclass		[ClassInfo[
+	staticInitializer=(no namespace) function staticInitializer() : QName[Namespace[namespace::*]:*]
+	traits=[
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_VAR], metadata=, kind=slot, slot=3, typeName=QName[Namespace[public]:String], vindex=0, vkind=null]
+		MethodTrait[name=QName[Namespace[public]:staticMethod], override=false, metadata=, dispositionId=3, method=public function QName[Namespace[public]:staticMethod]() : QName[Namespace[public]:void]]
+		SlotOrConstantTrait[name=QName[Namespace[private::assets.abc:FullClassDefinition]:SOME_STATIC_CONSTANT], metadata=, kind=const, slot=2, typeName=QName[Namespace[public]:String], vindex=4, vkind=[object ConstantKind]]
+		SlotOrConstantTrait[name=QName[Namespace[public]:PUBLIC_STATIC_CONSTANT], metadata=, kind=const, slot=1, typeName=QName[Namespace[public]:String], vindex=2, vkind=[object ConstantKind]]
+	]
+]]
+		popscope		
+		initproperty		[QName[Namespace[public::assets.abc]:FullClassDefinition]]
+		returnvoid		
+	}
+traits=(no traits)

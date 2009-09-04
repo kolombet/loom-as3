@@ -1,0 +1,41 @@
+Note that in FullClassDefinition_RuntimeSubClass, the instantiation of the object is based on the superclass name but the NSSet on the Multiname being used does not contain the custom
+multiname. On FullClassDefinition as created by the compiler, the custom namespace is in the scope of the object when it is created. This might be why you can't see the namespace
+in the dynamic proxy.
+
+=== From FullClassDefinition_RuntimeSubClass
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=3
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public::assets.abc]:FullClassDefinition]]
+		getproperty		[QName[Namespace[public::assets.abc]:FullClassDefinition]]
+		pushscope		
+===>		findpropstrict		[Multiname[name=FullClassDefinition, nsset=[Namespace[private::FullClassDefinition_RuntimeSubClass.as$1], Namespace[public], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc]]]]
+===>		getproperty		[Multiname[name=FullClassDefinition, nsset=[Namespace[private::FullClassDefinition_RuntimeSubClass.as$1], Namespace[public], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc]]]]
+		newclass		[ClassInfo[...
+		popscope		
+		initproperty		[QName[Namespace[public::assets.abc]:FullClassDefinition_RuntimeSubClass]]
+		returnvoid		
+	}
+traits=(no traits)
+
+=== From FullClassDefinition
+	(no namespace) function scriptInitializer() : QName[Namespace[namespace::*]:*]
+	{	
+		//maxStack=2, localCount=1, initScopeDepth=1, maxScopeDepth=3
+		getlocal_0		
+		pushscope		
+		getscopeobject		[0]
+		findpropstrict		[QName[Namespace[public]:Object]]
+		getproperty		[QName[Namespace[public]:Object]]
+		pushscope		
+===>		findpropstrict		[Multiname[name=Object, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]]
+===>		getproperty		[Multiname[name=Object, nsset=[Namespace[public], Namespace[private::FullClassDefinition.as$1], Namespace[public::assets.abc], Namespace[packageInternalNamespace::assets.abc], Namespace[namespace::http://www.maximporges.com]]]]
+		newclass		[ClassInfo[...
+		popscope		
+		initproperty		[QName[Namespace[public::assets.abc]:FullClassDefinition]]
+		returnvoid		
+	}
+traits=(no traits)
